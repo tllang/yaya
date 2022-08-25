@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx59dd266bc6d5db3e",
+# 公众号appSecret
+"app_secret": "5d4171c0e9ef283ee05bb43f8102733b",
+# 模板消息id
+"template_id": "3amgqKVYNRZbU7LooGjDNF1BeqU9W6ACWMdxLUcWof8",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["o_PJy6g6cngfTmjqrP2ZDdKNEwg4,o_PJy6nhNWns9-l_cpTsAQN5SGrE"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "dcf257a76339411a8a400ad54f2d364f",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "重庆",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "呀哥", "birthday": "r2002-04-17"},
+# 生日2
+"birthday2": {"name": "浪浪", "birthday": "r2002-08-13"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2020-10-17",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "改变的确很难，但结果值得冒险，拿出点勇气来，路还很长，现在才刚刚开始",
+# 金句英文
+"note_en": "They who cannot do as the would,must do as the can"
+}
